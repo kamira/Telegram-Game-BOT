@@ -28,7 +28,7 @@ function 去戰鬥(){
 }
 function 去工作(){
 	//$('.composer_rich_textarea').focus().text(':bread:工作!');
-	$('.composer_rich_textarea')[0].message = '/work';
+	$('.composer_rich_textarea')[0].innerHTML = '/work';
 	$('.im_submit').mousedown();
 
 }
